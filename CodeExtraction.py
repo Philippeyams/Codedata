@@ -6,6 +6,8 @@ import glob
 chemin = "C:/Users/Hp/Desktop/Dossier Stage HSM/Post traitement DassFlow/Input brute/*.dat"
 fic = glob.glob(chemin)
 
+
+print ("Bonjour YAMEOGO PHILIPPE ")
 # Dossier de sortie
 output_dir = "C:/Users/Hp/Desktop/Dossier Stage HSM/Post traitement DassFlow/Input"
 os.makedirs(output_dir, exist_ok=True)  # Créer le dossier de sortie s'il n'existe pas
